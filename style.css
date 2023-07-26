@@ -1,0 +1,88 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(255, 253, 208);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+h1 {
+	margin: 20px 20px 10px;
+}
+
+h3 {
+	font-weight: bold;
+	margin: 10px 20px;
+}
+
+.cup {
+	background-color: #fff;
+	border: 3px solid rgb(42, 99, 204);
+	color: rgb(68, 68, 240);
+	border-radius: 0 0 30px 30px;
+	height: 330px;
+	width: 150px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.cup.cup-small {
+	height: 100px;
+	width: 50px;
+	border-radius: 0 0 15px 15px;
+	transition: 0.3s ease;
+	text-align: center;
+}
+
+.cups {
+	display: flex;
+	justify-content: center;
+	width: 291px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cup.cup-small.full {
+	background-color: rgb(191, 254, 251);
+	color: rgba(8, 232, 8, 0.759);
+}
+
+.cup .remained {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+.cup .percentage {
+	background-color: rgb(205, 250, 255);
+	font-size: 20px;
+	color: rgb(48, 26, 145);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	height: 0;
+}
+
+.text {
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
